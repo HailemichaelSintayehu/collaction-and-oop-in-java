@@ -1,4 +1,9 @@
 class Employee
+    // Encapsulation refers to the bundling of fields and methods inside a single class.
+        // It prevents outer classes from accessing and changing fields and methods of a class.
+        // This also helps to achieve data hiding.
+
+
 {
     private int empno;
     private String name;

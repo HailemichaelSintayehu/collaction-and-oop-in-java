@@ -8,6 +8,7 @@ abstract class Car{
         this.color=color;
     }
     //concrete method
+    //Concrete methods are methods that are declared in an abstract class and are implemented in the subclass
     public String getColor()
     {
         return color;

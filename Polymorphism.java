@@ -1,5 +1,6 @@
 // overiding run time polymorphism
-
+// overriding is a function that requires a subclass or child class to provide a variety of method implementations,
+// that are already provided by one of its superclasses or parent classes,
 // Base Class
 class Parent {
     void show() {

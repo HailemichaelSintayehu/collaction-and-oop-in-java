@@ -3,6 +3,8 @@
 import java.io.*;
 import java.util.*;
 
+// Method overloading is a feature of Java in which a class has more than
+// one method of the same name and their parameters are different
 class HashSetExample {
 
     public static void main(String[] args)
@@ -12,7 +14,6 @@ class HashSetExample {
 
         // create ArrayList list1
         ArrayList<Integer> list1 = new ArrayList<>();
-
         // create ArrayList list2
         ArrayList<Integer> list2 = new ArrayList<>();
 
@@ -23,7 +24,6 @@ class HashSetExample {
         list2.add(2);
         set.add(list1);
         set.add(list2);
-
         // print the set size to understand the
         // internal storage of ArrayList in Set
         System.out.println(set.size());
